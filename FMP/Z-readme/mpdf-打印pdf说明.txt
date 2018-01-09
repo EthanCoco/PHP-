@@ -1,0 +1,11 @@
+pdf使用说明
+一、基于空原始项目（直接通过归档下载或composer下载的）
+1、安装composer
+2、复制composer.phar到项目根目录
+3、下载mpdf通过composer安装
+	php composer.phar require mpdf\mpdf
+4、使用
+	参考app\index\controller\Tools.php控制器使用
+	其中printPdf方法为封装的基本打印方法
+	printBirt方法可自行根据需求修改
+		
