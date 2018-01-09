@@ -14,11 +14,11 @@ class Tools extends Base
 {
     public function printBirt(){
 		$data = [
-			'name'=>'李建林',
+			'name'=>'EthanCoco',
 			'gender'=>'男',
 			'nation'=>'汉',
 			'phone'=>'13658452142',
-			'idcard'=>'362330199208122410',
+			'idcard'=>'363301252452121241',
 		];
 		
 		$birtID = $this->request->post('birtID',1);
