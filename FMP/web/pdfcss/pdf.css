@@ -1,0 +1,6 @@
+/*标准版*/
+.standard-table{ margin:auto; border-collapse:collapse; }
+.standard-table td{ height: 30px; padding: 0 3px; border:1px solid #000000; }
+.standard-table td.ctd{ text-align: center; }
+.standard-table td.ltd{ text-align: left; }
+.standard-table td.rtd{ text-align: right; }
